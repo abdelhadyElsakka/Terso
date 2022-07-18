@@ -40,6 +40,7 @@ import { RemoveWhiteSpacePipe } from './remove-white-space.pipe';
 import { RemoveColonPipe } from './remove-colon.pipe';
 import { SearchComponent } from './search/search.component';
 import {InputTextModule} from 'primeng/inputtext';
+import { RemoveDotPipe } from './remove-dot.pipe';
 
 
 
@@ -71,6 +72,7 @@ import {InputTextModule} from 'primeng/inputtext';
     RemoveWhiteSpacePipe,
     RemoveColonPipe,
     SearchComponent,
+    RemoveDotPipe,
   ],
 
   imports: [
