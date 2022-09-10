@@ -12,13 +12,16 @@ import { Observable, first } from 'rxjs';
 export class TrendingFavouriteComponent implements OnInit {
   sub: any;
 
-  constructor(private store:Store<{fav : any}>) { }
+  constructor(private store:Store<{fav : any}>) { 
+
+  }
 
   favlist:any = [];
 
   fav : Observable<any> | undefined
   
   ngOnInit(): void {
+   
     this.sub=this.store.select('fav').subscribe((res)=>{
       this.favlist=res.movies
     });

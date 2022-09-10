@@ -1,4 +1,4 @@
-<nav class="navBar navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navBar navbar navbar-expand-lg navbar-dark fixed-top ">
   <div class="container">
     <a class="navbar-brand "><img src="assets/logo.png" alt="" routerLink="/"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,16 +16,16 @@
           <input class="p-fluid w-100" (keyup)="getSearch()"  type="text" pInputText  [(ngModel)]="searchText" />
       </li>
         <li class="nav-item navItem">
-          <a class="nav-item nav-link" routerLink="/movies">Movies</a>
+          <a class="nav-item nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  routerLink="/movies">Movies</a>
         </li>
         <li class="nav-item navItem">
-          <a class="nav-item nav-link" routerLink="/tv">TV</a>
+          <a class="nav-item nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="/tv">TV</a>
         </li>
         <li class="nav-item navItem">
-          <a class="nav-item nav-link" routerLink="/people">Stars</a>
+          <a class="nav-item nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="/people">Stars</a>
         </li>
         <li class="nav-item navItem">
-          <a class="nav-item nav-link" routerLink="/favourite">Favourite</a>
+          <a class="nav-item nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="/favourite" >Favourite</a>
         </li>
         
         <!-- <li class="nav-item navItem">

@@ -47,7 +47,7 @@ export class ItemCardComponent implements OnInit {
     const el = document.getElementById(this.id);
     if(el?.classList.contains('fa-solid')){
       console.log("THIS ITEM ALREADY IN LIST");
-      this.messageService.add({ key:'c',sticky: true, severity:'warn', summary:'Are you sure you want to remove this movie from your Favourite List?', detail:'Confirm to proceed'});
+      this.messageService.add({ key:'c',sticky: true, severity:'warn', summary:'Are you sure you want to remove this item from your Favourite List?', detail:'Confirm to proceed'});
       
     }
     else{
@@ -59,9 +59,9 @@ export class ItemCardComponent implements OnInit {
 
   addSingle(data:any) {
     if(data.title){
-      this.messageService.add({severity:'success', summary:`Added ${data.title} To your Favourite List` , life:1200});
+      this.messageService.add({severity:'success', summary:`Added ${data.title} To Your Favourite List` , life:1200});
     }else if(data.name){
-      this.messageService.add({severity:'success', summary:`Added ${data.name} To your Favourite List` , life:1200});
+      this.messageService.add({severity:'success', summary:`Added ${data.name} To Your Favourite List` , life:1200});
     }
     
   }
@@ -86,9 +86,7 @@ export class ItemCardComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.media=this.itemData.media_type
-    console.log(this.favList)
-    
+    this.media=this.itemData.media_type    
 
   }
   ngAfterViewChecked(){
