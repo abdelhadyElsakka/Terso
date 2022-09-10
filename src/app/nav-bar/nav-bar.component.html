@@ -2,16 +2,16 @@
   <div class="container">
     <a class="navbar-brand "><img src="assets/logo.png" alt="" routerLink="/"></a>
 
-    <div class="p-input-icon-left search nav-item">
-      <i class="pi pi-search" type="submit"></i>
-      <input class="p-fluid w-100" (keyup)="getSearch()" placeholder="Search" type="text" pInputText  [(ngModel)]="searchText" />
-    </div>
+  
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
    
-    
+    <div class="p-input-icon-right search nav-item">
+      <i class="pi pi-search" type="submit"></i>
+      <input class="p-fluid w-100" (keyup)="getSearch()"  type="text" pInputText  [(ngModel)]="searchText" />
+    </div>
     
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav  ms-auto ">
