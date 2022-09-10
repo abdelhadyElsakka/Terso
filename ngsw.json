@@ -1,0 +1,131 @@
+{
+  "configVersion": 1,
+  "timestamp": 1662809124713,
+  "index": "https://abdelhadyElsakka.github.io/Terso/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://abdelhadyElsakka.github.io/Terso/94.f18eaec36f654b14.js",
+        "https://abdelhadyElsakka.github.io/Terso/favicon.ico",
+        "https://abdelhadyElsakka.github.io/Terso/index.html",
+        "https://abdelhadyElsakka.github.io/Terso/main.2a8b26c299aa86b2.js",
+        "https://abdelhadyElsakka.github.io/Terso/manifest.webmanifest",
+        "https://abdelhadyElsakka.github.io/Terso/polyfills.f1658225ec10e50a.js",
+        "https://abdelhadyElsakka.github.io/Terso/runtime.2c64fe177f9a43e1.js",
+        "https://abdelhadyElsakka.github.io/Terso/scripts.abbb37f329463b12.js",
+        "https://abdelhadyElsakka.github.io/Terso/styles.2e96bf5ab0d5b3e1.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://abdelhadyElsakka.github.io/Terso/404.b7572586e30424e6.jpg",
+        "https://abdelhadyElsakka.github.io/Terso/assets/404.jpg",
+        "https://abdelhadyElsakka.github.io/Terso/assets/all.jpeg",
+        "https://abdelhadyElsakka.github.io/Terso/assets/cover.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icon.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-128x128.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-144x144.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-152x152.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-192x192.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-384x384.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-512x512.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-72x72.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-96x96.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/logo.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/man.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/nosignal.jpg",
+        "https://abdelhadyElsakka.github.io/Terso/assets/woman.png",
+        "https://abdelhadyElsakka.github.io/Terso/color.dae87a04d07ca92b.png",
+        "https://abdelhadyElsakka.github.io/Terso/cover.79ca4a69fc2d9f84.png",
+        "https://abdelhadyElsakka.github.io/Terso/fa-brands-400.7fa789ab57acb632.ttf",
+        "https://abdelhadyElsakka.github.io/Terso/fa-brands-400.859fc3887485de84.woff2",
+        "https://abdelhadyElsakka.github.io/Terso/fa-regular-400.2ffd018f0eda6f7b.woff2",
+        "https://abdelhadyElsakka.github.io/Terso/fa-regular-400.da02cb7e372f16a2.ttf",
+        "https://abdelhadyElsakka.github.io/Terso/fa-solid-900.3a463ec33b4fe9f7.ttf",
+        "https://abdelhadyElsakka.github.io/Terso/fa-solid-900.40ddefd79fe7af45.woff2",
+        "https://abdelhadyElsakka.github.io/Terso/fa-v4compatibility.924588dc97e66b08.ttf",
+        "https://abdelhadyElsakka.github.io/Terso/fa-v4compatibility.ee06c6f803f379bb.woff2",
+        "https://abdelhadyElsakka.github.io/Terso/hue.8b1818380241e6ac.png",
+        "https://abdelhadyElsakka.github.io/Terso/primeicons.29151a741d66863a.woff",
+        "https://abdelhadyElsakka.github.io/Terso/primeicons.5f5d08cd089b4e5d.ttf",
+        "https://abdelhadyElsakka.github.io/Terso/primeicons.76044b1c189cc4d7.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://abdelhadyElsakka.github.io/Terso/404.b7572586e30424e6.jpg": "a40085b8666909e5472a41956b81409869881e1d",
+    "https://abdelhadyElsakka.github.io/Terso/94.f18eaec36f654b14.js": "879ab4641a3306f3abe192b4f686409d6920d8d3",
+    "https://abdelhadyElsakka.github.io/Terso/assets/404.jpg": "a40085b8666909e5472a41956b81409869881e1d",
+    "https://abdelhadyElsakka.github.io/Terso/assets/all.jpeg": "633295c495a0d3b8b006e64f914123076c79664b",
+    "https://abdelhadyElsakka.github.io/Terso/assets/cover.png": "b038163bdc45ece50eed0feee5ff00c111970840",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icon.png": "e359479867235c9b9e2c9234386cc93d175353c5",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-128x128.png": "5a8049e1ffa1f46e7c8a9bfbb1fcedb9552aca95",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-144x144.png": "8e91592d8d0a25a83ed3a292d571d290a94f7910",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-152x152.png": "68a7fc47ca5a043895b10742223f52456187f61d",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-192x192.png": "2cba9d7f6a70741321bf15b680b889d6c922979f",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-384x384.png": "dbc8ee10023c5bfd376b342c66b989d7793d5532",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-512x512.png": "51048955111f3dd915bf513ae76a1a98a9898638",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-72x72.png": "c2e581352bb1af5f44d4576f743a6317da7eb27c",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-96x96.png": "49ac9fa98bb9f98fb00946631ef57e9adddb5db1",
+    "https://abdelhadyElsakka.github.io/Terso/assets/logo.png": "a9a2e2abb003806d84ebb0e9fd9ca9c6a5a22abf",
+    "https://abdelhadyElsakka.github.io/Terso/assets/man.png": "a830ed688ea84b5b36e3cc16781d04cff7753a5a",
+    "https://abdelhadyElsakka.github.io/Terso/assets/nosignal.jpg": "7ce26c92ef97ca4e16da9a49a587bda4510dc674",
+    "https://abdelhadyElsakka.github.io/Terso/assets/woman.png": "9dcc3c562716123000eafa287b4cb39fa4801ba3",
+    "https://abdelhadyElsakka.github.io/Terso/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "https://abdelhadyElsakka.github.io/Terso/cover.79ca4a69fc2d9f84.png": "b038163bdc45ece50eed0feee5ff00c111970840",
+    "https://abdelhadyElsakka.github.io/Terso/fa-brands-400.7fa789ab57acb632.ttf": "acc07d5e1ab5b96b23fabb53b1f4e416c7c0a46d",
+    "https://abdelhadyElsakka.github.io/Terso/fa-brands-400.859fc3887485de84.woff2": "a280ecdddd14695fad22599301ab03adfe5224c0",
+    "https://abdelhadyElsakka.github.io/Terso/fa-regular-400.2ffd018f0eda6f7b.woff2": "379ca48f70f3d4f79f8bf1079881c7c5af4f44a4",
+    "https://abdelhadyElsakka.github.io/Terso/fa-regular-400.da02cb7e372f16a2.ttf": "a14023c43173628d93858c0f3fc90cf54b18a28e",
+    "https://abdelhadyElsakka.github.io/Terso/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
+    "https://abdelhadyElsakka.github.io/Terso/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
+    "https://abdelhadyElsakka.github.io/Terso/fa-v4compatibility.924588dc97e66b08.ttf": "e688e02012b9e5269a09809b0d666edc87527cb2",
+    "https://abdelhadyElsakka.github.io/Terso/fa-v4compatibility.ee06c6f803f379bb.woff2": "951ded71094a52e249ac52799fac7cbb68368270",
+    "https://abdelhadyElsakka.github.io/Terso/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://abdelhadyElsakka.github.io/Terso/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "https://abdelhadyElsakka.github.io/Terso/index.html": "2d9cfd3aeb3b6928f84b976dfe08790ea23136de",
+    "https://abdelhadyElsakka.github.io/Terso/main.2a8b26c299aa86b2.js": "8b018f850dda4ea1c2bf47a9eda97bf2008802fc",
+    "https://abdelhadyElsakka.github.io/Terso/manifest.webmanifest": "830e6875ed74f9af89f355d39a6b9dfe2010fed3",
+    "https://abdelhadyElsakka.github.io/Terso/polyfills.f1658225ec10e50a.js": "c67e7fe4b91a7119b4db99a871137e03fe87e354",
+    "https://abdelhadyElsakka.github.io/Terso/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
+    "https://abdelhadyElsakka.github.io/Terso/primeicons.5f5d08cd089b4e5d.ttf": "e6c86ca90a9fb4282fb35523d56fde00e78a1416",
+    "https://abdelhadyElsakka.github.io/Terso/primeicons.76044b1c189cc4d7.svg": "621775b2ec555fd2dd152a24390cf6dfeee168b1",
+    "https://abdelhadyElsakka.github.io/Terso/runtime.2c64fe177f9a43e1.js": "ec36f0e9f6fb2815f7d152b441461951b730da46",
+    "https://abdelhadyElsakka.github.io/Terso/scripts.abbb37f329463b12.js": "f071c80334dd74cc1a8b8d6044d58933cf76d0af",
+    "https://abdelhadyElsakka.github.io/Terso/styles.2e96bf5ab0d5b3e1.css": "d6eec3b602a319928f8c6fe079372c02064fb127"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
