@@ -1,4 +1,4 @@
-<p-toast  [showTransformOptions]="'translateX(100%)'" styleClass="custom-toast"></p-toast>
+<p-toast  [showTransformOptions]="'translateX(100%)'" [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>
 <p-toast position="bottom-center" key="c" (onClose)="onReject()" [baseZIndex]="5000">
     <ng-template let-message pTemplate="message">
         <div class="flex flex-column" style="flex: 1">

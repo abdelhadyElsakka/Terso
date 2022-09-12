@@ -1,13 +1,8 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
-
-import { Store } from '@ngrx/store';
-import { Observable, first, filter } from 'rxjs';
-import { addToFavList } from 'src/favlist.action';
-import { MoviesService } from 'src/app/services/movies.service';
 import { MessageService } from 'primeng/api';
-import { removeFromFavList } from 'src/favlist.action';
 import {Router} from "@angular/router";
+
 
 @Component({
   selector: 'app-item-card',
@@ -31,12 +26,10 @@ export class ItemCardComponent implements OnInit {
   baseUrl:string="https://image.tmdb.org/t/p/w500/";
   id: any;
   favList: any;
+  favArray: any;
 
-
-  constructor(private _router:Router,private store:Store<{fav : any}> , private messageService: MessageService) {
-    this.store.select('fav').pipe(first()).subscribe((res)=> {
-      this.favList=res.movies
-    });
+  constructor(private _router:Router, private messageService: MessageService) {
+    
   }
 
 
@@ -46,12 +39,17 @@ export class ItemCardComponent implements OnInit {
     e.stopPropagation();
     const el = document.getElementById(this.id);
     if(el?.classList.contains('fa-solid')){
-      console.log("THIS ITEM ALREADY IN LIST");
       this.messageService.add({ key:'c',sticky: true, severity:'warn', summary:'Are you sure you want to remove this item from your Favourite List?', detail:'Confirm to proceed'});
       
     }
     else{
-    this.store.dispatch(addToFavList({data : this.itemData}));
+    if(!localStorage.getItem("fav")){
+      localStorage.setItem("fav",JSON.stringify([]))
+    }else{
+      this.favArray=JSON.parse(localStorage.getItem("fav")||"")
+      localStorage.setItem("fav",JSON.stringify([...this.favArray, this.itemData]))
+    }
+    
     el?.classList.add('fa-solid');
     this.addSingle(this.itemData)
     }
@@ -68,7 +66,13 @@ export class ItemCardComponent implements OnInit {
 
   onConfirm(id:number){
   const el = document.getElementById(this.id);
-  this.store.dispatch(removeFromFavList({data:this.id}));
+ 
+  this.favArray=this.favArray.filter((item:any)=>{
+    return item.id != this.id 
+  })
+
+  localStorage.setItem("fav",JSON.stringify(this.favArray))
+  this.messageService.add({severity:'success', summary:`Removed From Your Favourite List` , life:1200});
   el?.classList.remove('fa-solid');
   this.messageService.clear('c');
 }
@@ -90,7 +94,8 @@ export class ItemCardComponent implements OnInit {
 
   }
   ngAfterViewChecked(){
-    for(let item of this.favList){
+    this.favArray=JSON.parse(localStorage.getItem("fav")||"")
+    for(let item of this.favArray){
       const elem = document.getElementById(item.id);
       if(elem){
         elem.classList.add('fa-solid');

@@ -8,17 +8,17 @@
       <span class="navbar-toggler-icon"></span>
     </button>
    
-    <div class="p-input-icon-right search nav-item">
+    <!-- <div class="p-input-icon-right search nav-item">
       <i class="pi pi-search search-icon" ></i>
       <input class="p-fluid w-100" (keyup)="getSearch()"  type="text" pInputText  [(ngModel)]="searchText" />
-    </div>
+    </div> -->
     
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav  ms-auto ">
-        <!-- <li class="p-input-icon-right nav-item">
-          <i class="pi pi-search" ></i>
+        <li class="p-input-icon-right search nav-item">
+          <i class="pi pi-search search-icon" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" type="submit" ></i>
           <input class="p-fluid w-100" (keyup)="getSearch()"  type="text" pInputText  [(ngModel)]="searchText" />
-      </li> -->
+      </li>
         <li class="nav-item navItem">
           <a class="nav-item nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  routerLink="/movies">Movies</a>
         </li>
