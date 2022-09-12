@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662974726592,
+  "timestamp": 1662988263628,
   "index": "https://abdelhadyElsakka.github.io/Terso/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "https://abdelhadyElsakka.github.io/Terso/94.f18eaec36f654b14.js",
         "https://abdelhadyElsakka.github.io/Terso/favicon.ico",
         "https://abdelhadyElsakka.github.io/Terso/index.html",
-        "https://abdelhadyElsakka.github.io/Terso/main.3bce2614dd4e2ffc.js",
+        "https://abdelhadyElsakka.github.io/Terso/main.961bda3415b5e526.js",
         "https://abdelhadyElsakka.github.io/Terso/manifest.webmanifest",
         "https://abdelhadyElsakka.github.io/Terso/polyfills.f1658225ec10e50a.js",
         "https://abdelhadyElsakka.github.io/Terso/runtime.2c64fe177f9a43e1.js",
@@ -45,6 +45,7 @@
         "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-512x512.png",
         "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-72x72.png",
         "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-96x96.png",
+        "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon.png",
         "https://abdelhadyElsakka.github.io/Terso/assets/logo.png",
         "https://abdelhadyElsakka.github.io/Terso/assets/man.png",
         "https://abdelhadyElsakka.github.io/Terso/assets/nosignal.jpg",
@@ -84,6 +85,7 @@
     "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-512x512.png": "8afff0543241e39a398666f57578210b2bd0ed46",
     "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-72x72.png": "222fa049bf901adb89db073ae9dbfef7de48bd4b",
     "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon-96x96.png": "a2c8b20166b5812cde7af0db341f81d3b38d4281",
+    "https://abdelhadyElsakka.github.io/Terso/assets/icons/icon.png": "5ba4d0763f610b039d67f25cb2fb30fbecb5c50d",
     "https://abdelhadyElsakka.github.io/Terso/assets/logo.png": "a9a2e2abb003806d84ebb0e9fd9ca9c6a5a22abf",
     "https://abdelhadyElsakka.github.io/Terso/assets/man.png": "a830ed688ea84b5b36e3cc16781d04cff7753a5a",
     "https://abdelhadyElsakka.github.io/Terso/assets/nosignal.jpg": "5f7950689d4c79b83029e28a23811338b3d3e84c",
@@ -100,8 +102,8 @@
     "https://abdelhadyElsakka.github.io/Terso/fa-v4compatibility.ee06c6f803f379bb.woff2": "951ded71094a52e249ac52799fac7cbb68368270",
     "https://abdelhadyElsakka.github.io/Terso/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://abdelhadyElsakka.github.io/Terso/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "https://abdelhadyElsakka.github.io/Terso/index.html": "4ffc524ade97daf00c23755490ce30300ebc66c3",
-    "https://abdelhadyElsakka.github.io/Terso/main.3bce2614dd4e2ffc.js": "6ec54e45a570c0462cbac7de836e8f376e24bc50",
+    "https://abdelhadyElsakka.github.io/Terso/index.html": "ac82bff76954c1f67174b60463b581176aa50f9b",
+    "https://abdelhadyElsakka.github.io/Terso/main.961bda3415b5e526.js": "aec31182670877d46cb9ae5bc0d0c52f75a2f286",
     "https://abdelhadyElsakka.github.io/Terso/manifest.webmanifest": "830e6875ed74f9af89f355d39a6b9dfe2010fed3",
     "https://abdelhadyElsakka.github.io/Terso/polyfills.f1658225ec10e50a.js": "c67e7fe4b91a7119b4db99a871137e03fe87e354",
     "https://abdelhadyElsakka.github.io/Terso/primeicons.29151a741d66863a.woff": "21e477ea19e15b66344bcc23b3fbb2161092a707",
