@@ -10,7 +10,11 @@
 
     .search{
         width: 100%;
-        margin-right: .5rem;
+
+        &-icon{
+            margin-right: .5rem;
+        }
+        
     }
 }
 
