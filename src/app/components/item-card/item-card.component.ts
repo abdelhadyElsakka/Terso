@@ -94,14 +94,18 @@ export class ItemCardComponent implements OnInit {
 
   }
   ngAfterViewChecked(){
-    this.favArray=JSON.parse(localStorage.getItem("fav")||"")
+    if(!localStorage.getItem("fav")){
+      localStorage.setItem("fav",JSON.stringify([]))
+    }else{
+      this.favArray=JSON.parse(localStorage.getItem("fav")||"")
     for(let item of this.favArray){
       const elem = document.getElementById(item.id);
       if(elem){
         elem.classList.add('fa-solid');
       }
-      
     } 
+    }
+    
   }
 
 }

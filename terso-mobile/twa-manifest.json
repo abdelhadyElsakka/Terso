@@ -1,0 +1,42 @@
+{
+  "packageId": "io.github.abdelhadyelsakka.twa",
+  "host": "abdelhadyelsakka.github.io",
+  "name": "Terso",
+  "launcherName": "Terso",
+  "display": "fullscreen-sticky",
+  "themeColor": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#000000",
+  "enableNotifications": true,
+  "startUrl": "/Terso/",
+  "iconUrl": "https://abdelhadyelsakka.github.io/Terso/assets/icons/icon-512x512.png",
+  "maskableIconUrl": "https://abdelhadyelsakka.github.io/Terso/assets/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "D:\\Terso\\terso-mobile\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://abdelhadyelsakka.github.io/Terso/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://abdelhadyelsakka.github.io/Terso/",
+  "minSdkVersion": 19,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

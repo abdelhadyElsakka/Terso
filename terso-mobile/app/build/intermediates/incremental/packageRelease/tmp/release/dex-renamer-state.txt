@@ -1,0 +1,4 @@
+#Mon Sep 12 15:17:51 EET 2022
+base.0=D\:\\Terso\\terso-mobile\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

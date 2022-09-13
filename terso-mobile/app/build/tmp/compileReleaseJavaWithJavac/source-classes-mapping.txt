@@ -1,0 +1,8 @@
+io/github/abdelhadyelsakka/twa/LauncherActivity.java
+ io.github.abdelhadyelsakka.twa.LauncherActivity
+io/github/abdelhadyelsakka/twa/BuildConfig.java
+ io.github.abdelhadyelsakka.twa.BuildConfig
+io/github/abdelhadyelsakka/twa/DelegationService.java
+ io.github.abdelhadyelsakka.twa.DelegationService
+io/github/abdelhadyelsakka/twa/Application.java
+ io.github.abdelhadyelsakka.twa.Application
