@@ -12,15 +12,15 @@
     <div class="watch text-center row">
       <div class="col-lg-2 col-12 py-5">
         <a *ngIf="details.profile_path"
-          href="{{'https://tune.egybest.icu/actor/'+((details.name|removeSpaces)|removeColon)}}"><button
+          href="{{'https://www.google.com/search?q=actor/'+((details.name|removeSpaces)|removeColon)}}"><button
             pButton pRipple type="button" label="Watch" class="p-button-raised p-button watchBtn px-5"><i
               class="pi pi-caret-right" style="font-size: 2rem"></i></button></a>
         <a *ngIf="details.release_date"
-          href="{{'https://tune.egybest.icu/movie/'+((details.title|removeSpaces)|removeColon)+'-'+(details.release_date|date:'yyyy')}}"><button
+          href="{{https://www.google.com/search?q=movie/'+((details.title|removeSpaces)|removeColon)+'-'+(details.release_date|date:'yyyy')}}"><button
             pButton pRipple type="button" label="Watch" class="p-button-raised p-button watchBtn  px-5"><i
               class="pi pi-caret-right" style="font-size: 2rem"></i></button></a>
         <a *ngIf="details.first_air_date"
-          href="{{'https://tune.egybest.icu/series/'+((details.name|removeSpaces)|removeColon)}}"><button
+          href="{{'https://www.google.com/search?q=series/'+((details.name|removeSpaces)|removeColon)}}"><button
             pButton pRipple type="button" label="Watch" class="p-button-raised p-button watchBtn  px-5"><i
               class="pi pi-caret-right" style="font-size: 2rem"></i></button></a>
       </div>
